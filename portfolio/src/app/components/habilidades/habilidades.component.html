@@ -1,0 +1,14 @@
+
+<section id="skills">
+    <div class="container-fluid">
+      <h3><em>HARD AND SOFT SKILLS</em></h3>
+        <div class="row">
+          <ul>
+            <li>
+              <app-habilidad *ngFor="let habilidad of habilidades"
+              [habilidad]="habilidad"></app-habilidad>             
+             </li>
+          </ul>
+        </div> 
+    </div>
+</section>

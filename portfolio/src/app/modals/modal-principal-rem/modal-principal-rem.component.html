@@ -1,0 +1,17 @@
+
+<div class="modal-rem">
+    <div class="container" *ngIf="persona">
+      <div class="div">
+        <form (ngSubmit)="onDelete()" novalidate #f="ngForm">
+          <h3>ADVERTENCIA</h3>
+          <p>¿Está seguro que desea eliminar esta información?</p>
+          <button id="btn_aceptar" type="submit">Eliminar</button>
+          <button id="btn_cancelar" type="reset" (click)="closeModal()">Cancelar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms

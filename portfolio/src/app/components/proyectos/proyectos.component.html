@@ -1,0 +1,14 @@
+
+<section id="proyectos">
+    <div class="container-fluid">
+      <h3><em>PROYECTOS</em></h3>
+      <article>
+        <ul>
+          <li>
+            <app-proyecto *ngFor="let proyecto of proyectos"
+              [proyecto]="proyecto"></app-proyecto>    
+           </li>
+        </ul>
+      </article>
+    </div>
+  </section>

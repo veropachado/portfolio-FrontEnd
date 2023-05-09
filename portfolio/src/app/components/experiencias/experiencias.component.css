@@ -1,0 +1,14 @@
+button{
+    margin-left: 340px;
+}
+li{
+    list-style-type:none;
+}
+#experiencia{
+    margin-top: 40px;
+}
+@media(max-width:575px){
+    button{
+        margin-left: 280px;
+    }
+}

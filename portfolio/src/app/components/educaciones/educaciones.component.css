@@ -1,0 +1,15 @@
+button{
+    margin-left: 180px;
+}
+li{
+    list-style-type:none;
+}
+
+#educacion{
+    margin-top: 70px;
+}
+@media(max-width:575px){
+    button{
+        margin-left: 150px;
+    }
+}

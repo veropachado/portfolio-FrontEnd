@@ -1,0 +1,35 @@
+.modal-rem{
+    display: flex;
+    background-color: rgba(0,0,0,0.7);
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    pointer-events:all;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    background-color: rgb(175, 145, 245);
+    width: 800px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    box-shadow: 7px 13px 37px #000;
+}
+button{
+    cursor: pointer;
+    background: rgb(214, 199, 246) ;
+    border-radius: 5px;
+    border-style: none;
+    padding: 6px;
+    margin-left: 10px;
+  }
+button:hover{
+    background: rgb(107, 49, 231);
+}

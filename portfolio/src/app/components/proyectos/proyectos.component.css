@@ -1,0 +1,11 @@
+.img_proyecto{
+    width: 20%;
+    height: 30%;
+    box-shadow: 10px 10px 5px #5757F9;
+}
+#proyectos{
+    margin-top: 50px;
+}
+li{
+    list-style-type:none;
+}
