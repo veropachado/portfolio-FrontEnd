@@ -85,4 +85,5 @@ import { interceptorProvider } from './services/interceptor.service';
   providers: [PortfolioService, EducacionService, ExperienciaService, HabilidadService, ProyectoService, interceptorProvider],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

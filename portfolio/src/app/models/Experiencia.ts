@@ -5,6 +5,7 @@ export class Experiencia {
     fecha_inicio:string;
     fecha_fin:string;
     tareas:string;
+    
 
     constructor(empresa:string,puesto:string, fecha_inicio:string, fecha_fin:string, tareas:string){
         this.empresa=empresa;

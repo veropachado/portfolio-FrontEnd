@@ -5,7 +5,6 @@ export class Educacion {
     fecha_inicio:string;
     fecha_fin:string;
     
-
     constructor(titulo:string, institucion:string, fecha_inicio:string, fecha_fin:string){
         this.titulo=titulo;
         this.institucion=institucion;
