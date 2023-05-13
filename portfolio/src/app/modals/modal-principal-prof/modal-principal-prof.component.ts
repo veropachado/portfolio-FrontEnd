@@ -10,7 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class ModalPrincipalProfComponent implements OnInit {
   @Input() title="";
-  persona:Persona=null;
+  persona:Persona=new Persona("","","","","","","","");
   
   constructor(private datosPortfolio:PortfolioService, private activatedRoute:ActivatedRoute, private router:Router) { }
 

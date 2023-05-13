@@ -14,7 +14,7 @@ const httpOptions={
 })
 
 export class PortfolioService {
-  private apiUrl:string='https://bkdargprograma.herokuapp.com/personas/';
+  private apiUrl:string='http://localhost:8080/personas/';
   personas:Persona[]=[];
 
   constructor(private http:HttpClient) { }

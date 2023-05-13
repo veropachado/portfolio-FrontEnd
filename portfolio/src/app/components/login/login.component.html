@@ -8,16 +8,16 @@
           <h2 class="inicio-sesion">Inicia Sesion</h2>
 
           <div class="mb-3 form-group">
-            <label for="nombreUsuario" class="form-label">Usuario</label>
-            <input type="email" class="form-control" id="nombreUsuario" name="nombreUsuario" [(ngModel)]="nombreUsuario" required minlength="6" maxlength="12" autofocus>
+            <label for="nombreUsuario" class="form-label">USUARIO</label>
+            <input type="email" class="form-control" id="nombreUsuario" name="nombreUsuario" [(ngModel)]="nombreUsuario" required minlength="6" maxlength="20" autofocus [ngModelOptions]="{standalone: true}">
           </div>
           <div class="mb-3 form-group">
-            <label for="password" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="password" name="password" [(ngModel)]="password" required minlength="6" maxlength="12">
+            <label for="password" class="form-label">CONTRASEÑA</label>
+            <input type="password" class="form-control" id="password" name="password" [(ngModel)]="password" required minlength="6" maxlength="20"  [ngModelOptions]="{standalone: true}">
           </div>
 
           <div class="mb-3 form-button">
-            <button type="submit" id="btn_enviar" class="button">Iniciar</button>
+            <button type="submit" id="btn_enviar" class="button">INGRESAR</button>
           </div>
       </form>  
     </div>

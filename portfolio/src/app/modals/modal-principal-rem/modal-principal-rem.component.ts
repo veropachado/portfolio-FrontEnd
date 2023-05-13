@@ -9,7 +9,7 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
   styleUrls: ['./modal-principal-rem.component.css']
 })
 export class ModalPrincipalRemComponent implements OnInit {
-  persona:Persona=null;
+  persona:Persona=new Persona("","","","","","","","");
   
   constructor(private datosPortfolio:PortfolioService, private activatedRoute:ActivatedRoute, private router:Router) { }
 

@@ -11,7 +11,6 @@
     width: 100vw;
     height: 100vh;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  /*  overflow-y: auto;*/
 
 }
 h4{
@@ -20,13 +19,11 @@ h4{
 }
 
 .container{
-    background-color: rgb(175, 145, 245);
+    background-color: rgb(244, 125, 101);
     width: 800px;
     max-width: 100%;
     padding: 30px 50px;
-    border-radius: 5px;
     text-align:center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     box-shadow: 7px 13px 37px #000;
 }
@@ -40,12 +37,11 @@ input {
 }
 button {
     cursor: pointer;
-    background: rgb(214, 199, 246) ;
-    border-radius: 5px;
+    background: rgb(245, 197, 188) ;
     border-style: none;
     padding: 6px;
     margin-left: 10px;
   }
 button:hover{
-    background: rgb(107, 49, 231);
+    background: rgb(199, 36, 4);
 }

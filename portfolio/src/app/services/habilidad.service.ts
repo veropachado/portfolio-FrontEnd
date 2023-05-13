@@ -7,7 +7,7 @@ import { Habilidad } from '../models/Habilidad';
   providedIn: 'root'
 })
 export class HabilidadService {
-  private apiUrl:string='https://bkdargprograma.herokuapp.com/habilidades/';
+  private apiUrl:string='http://localhost:8080/habilidades/';
   //habilidades:Habilidad[]=[];
 
   constructor(private http:HttpClient) { }

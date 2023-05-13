@@ -9,7 +9,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./modal-educacion-rem.component.css']
 })
 export class ModalEducacionRemComponent implements OnInit {
-  educacion:Educacion=null;
+  educacion:Educacion=new Educacion("","","","");
 
   constructor(private datosEducacion:EducacionService, private activatedRoute:ActivatedRoute, private router:Router) { }
 

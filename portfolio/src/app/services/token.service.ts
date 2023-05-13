@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-//import { window } from 'rxjs';
 
 const TOKEN_KEY='AuthToken';
 const USERNAME_KEY='AuthUsername';

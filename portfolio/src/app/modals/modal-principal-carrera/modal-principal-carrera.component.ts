@@ -11,8 +11,7 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 })
 export class ModalPrincipalCarreraComponent implements OnInit {
   @Input() title="";
- //personas:Persona[]=[];
-  persona:Persona=null;
+  persona:Persona=new Persona("","","","","","","","");
 
 
 

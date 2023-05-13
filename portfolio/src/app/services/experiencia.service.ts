@@ -13,8 +13,8 @@ const httpOptions={
   providedIn: 'root'
 })
 export class ExperienciaService {
-  private apiUrl:string='https://bkdargprograma.herokuapp.com/experiencias/';
-  //experiencias:Experiencia[]=[];
+  private apiUrl:string='http://localhost:8080/experiencias/';
+
 
   constructor(private http:HttpClient) { }
 

@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./modal-experiencia-rem.component.css']
 })
 export class ModalExperienciaRemComponent implements OnInit {
-  experiencia:Experiencia=null;
+  experiencia:Experiencia=new Experiencia("","","","","");
 
   constructor(private datosExperiencia:ExperienciaService, private activatedRoute:ActivatedRoute, private router:Router) { }
 

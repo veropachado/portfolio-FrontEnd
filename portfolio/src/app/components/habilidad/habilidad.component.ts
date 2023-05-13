@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { HabilidadService } from 'src/app/services/habilidad.service';
 import { Habilidad } from 'src/app/models/Habilidad';
 
 @Component({
@@ -9,9 +8,9 @@ import { Habilidad } from 'src/app/models/Habilidad';
   styleUrls: ['./habilidad.component.css']
 })
 export class HabilidadComponent implements OnInit {
-  @Input () habilidad:Habilidad=null;
+  @Input () habilidad:Habilidad=new Habilidad("",0);
  
-  constructor(private datosHabilidad:HabilidadService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }

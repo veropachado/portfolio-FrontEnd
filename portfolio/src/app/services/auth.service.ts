@@ -10,7 +10,7 @@ import { NuevoUsuario } from '../models/Nuevo-usuario';
 })
 export class AuthService {
 
-  authUrl:string='https://bkdargprograma.herokuapp.com/auth/';
+  authUrl:string='http://localhost:8080/auth/';
 
   constructor(private http:HttpClient) { }
 

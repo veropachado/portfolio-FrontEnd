@@ -4,6 +4,7 @@
 button{
     padding-top: 10px;
     border-style: none;
+    background:none;
 
 }
 @media(max-width:575px){

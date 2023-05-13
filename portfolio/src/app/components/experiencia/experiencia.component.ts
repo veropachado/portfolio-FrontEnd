@@ -1,5 +1,4 @@
 import { Component, OnInit, Input, Output } from '@angular/core';
-import { ExperienciaService } from 'src/app/services/experiencia.service';
 import { Experiencia } from 'src/app/models/Experiencia';
 import { TokenService } from 'src/app/services/token.service';
 
@@ -11,9 +10,9 @@ import { TokenService } from 'src/app/services/token.service';
 export class ExperienciaComponent implements OnInit {
   
   isLogged=false
-  @Input () experiencia:Experiencia=null;
+  @Input () experiencia:Experiencia=new Experiencia("","","","","");
     
-  constructor(private datosExperiencia:ExperienciaService, private tokenService:TokenService) { }
+  constructor( private tokenService:TokenService) { }
   ngOnInit(): void {
     if(this.tokenService.getToken()){
       this.isLogged=true;

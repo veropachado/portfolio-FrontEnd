@@ -10,7 +10,7 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 })
 export class ModalPrincipalFondoComponent implements OnInit {
   @Input() title="";
-  persona:Persona=null;
+  persona:Persona=new Persona("","","","","","","","");
 
   constructor(private datosPortfolio:PortfolioService, private activatedRoute:ActivatedRoute, private router:Router) { }
 

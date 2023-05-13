@@ -1,6 +1,5 @@
 import { Component, OnInit, Input, Output} from '@angular/core';
 import { Educacion } from '../../models/Educacion';
-import { EducacionComponent } from 'src/app/components/educacion/educacion.component';
 import { EducacionService } from 'src/app/services/educacion.service';
 import { ActivatedRoute, Router } from '@angular/router';
 
@@ -11,7 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class ModalEducacionEditComponent implements OnInit {
   @Input() title="";
-  educacion:Educacion=null;
+  educacion:Educacion=new Educacion("","","","");
 
   constructor(private datosEducacion:EducacionService,private activatedRoute:ActivatedRoute, private router:Router) { }
 
