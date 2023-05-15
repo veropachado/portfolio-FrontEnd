@@ -7,8 +7,7 @@ import { Habilidad } from '../models/Habilidad';
   providedIn: 'root'
 })
 export class HabilidadService {
-  private apiUrl:string='http://localhost:8080/habilidades/';
-  //habilidades:Habilidad[]=[];
+  private apiUrl:string='https://backendvp.onrender.com/habilidades/';
 
   constructor(private http:HttpClient) { }
 

@@ -7,8 +7,7 @@ import { Proyecto } from '../models/Proyecto';
   providedIn: 'root'
 })
 export class ProyectoService {
-  private apiUrl:string='http://localhost:8080/proyectos/';
-  //proyectos:Proyecto[]=[];
+  private apiUrl:string='https://backendvp.onrender.com/proyectos/';
 
   constructor(private http:HttpClient) { }
 

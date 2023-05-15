@@ -13,7 +13,7 @@ const httpOptions={
   providedIn: 'root'
 })
 export class ExperienciaService {
-  private apiUrl:string='http://localhost:8080/experiencias/';
+  private apiUrl:string='https://backendvp.onrender.com/experiencias/';
 
 
   constructor(private http:HttpClient) { }

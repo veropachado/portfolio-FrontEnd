@@ -12,8 +12,7 @@ const httpOptions={
   providedIn: 'root'
 })
 export class EducacionService {
-  private apiUrl:string='http://localhost:8080/educaciones/';
-  //educaciones:Educacion[]=[];
+  private apiUrl:string='https://backendvp.onrender.com/educaciones/';
 
   constructor(private http:HttpClient) { }
 
